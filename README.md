@@ -23,4 +23,12 @@ enimeronoume sto telos kai to plithos poliseon ana tipo pizzas.
 * o paraskevastis xriazete sigkekrimeno xrono gia na etimasei kathe pizza. asxolounte me mia paragkelia tin fora.
 * o paraskevastis perimenei na ginoun arketoi fournei diathesimoi etsi oste na psithoun oles oi pizzes tis idias paragkelias paralila, kathe fournos xoraei mono mia pizza. Otan oi pizzes mpoun ston fourno o paraskevasteis analamvanei nea paragkelia.
 * oi pizzes psinonte se sigkekrimeno xrono. otan teleiosei to psisimo oi fournei kleinoun aftomata kai perimenoun enan paketaristi na bgalei tis pizzes apo ton fourno kai na tis paketari se sigkekrimeno xrono. afou teleiosei to paketarisma tote eleftherononte oi fournoi.
-* oi dianomeis paradidoun mono mia paragkelia tin fora se sugkektimeno xrono kai xriazonte ton idio xrono gia na epistrepsoun sto katastima. 
+* oi dianomeis paradidoun mono mia paragkelia tin fora se sugkektimeno xrono kai xriazonte ton idio xrono gia na epistrepsoun sto katastima.
+
+## Domi code
+  paraskevastes, fournous, upalipous paketarismatos, dianomis.
+- xreiazontai mia akerea metavliti, ena mutex kai mia metavliti sinthiki gia na sigxronizonte.
+
+- metavlites kai stixia mutex gia ta esoda kai statisksika.
+
+- ena mutex gia klidoma tis othonis otan tiponete i eksodos.
