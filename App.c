@@ -11,6 +11,11 @@ pthread_cond_t condPack;
 pthread_mutex_t lockDeliver;
 pthread_cond_t condDeliver;
 
+int NumOfCooks = Ncook;
+int NumOfOvens = Noven;
+int NumOfPackers = Npacker;
+int NumOfDelivers = Ndeliverer;
+
 int income = 0;
 
 struct timespec waiting_for_ordering;
