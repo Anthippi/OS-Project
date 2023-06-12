@@ -17,6 +17,7 @@ int max_service_time = 0, total_service_time = 0;
 int max_cooling_time = 0,  total_cooling_time = 0;
 int seed;
 
+struct timespec receive_order_time;
 struct timespec waiting_for_ordering;
 struct timespec payment_time;
 struct timespec pizza_preparation_time;
@@ -25,5 +26,12 @@ struct timespec delivering_time;
 
 void *order(void *x){
     int order_number = *(int *)x;
+    int service_time;
+    int baking_time;
+    int preparation_time;
+    int delivering_time;
+
+    clock_getting(CLOCK_REALTIME, &receive_order_time);
+    service_time = receive_order_time.tv_sec;
 
 }
