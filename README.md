@@ -1,4 +1,4 @@
-# Σύστημα Διαχείρισης Παραγγελιών Πίτσας με POSIX Threads
+# Σύστημα Διαχείρισης Παραγγελιών Πίτσας με POSIX Threads [![Static Badge](https://img.shields.io/badge/English-orange)](README.en.md)
 
 Αυτό το έργο υλοποιεί ένα σύστημα διαχείρισης παραγγελιών πίτσας χρησιμοποιώντας **POSIX threads (pthreads)** και μηχανισμούς συγχρονισμού (mutexes, condition variables) σε **Linux/Lubuntu**. Ο κώδικας προσομοιώνει την ταυτόχρονη λειτουργία πελατών, μαγείρων, φούρνων, πακεταριστών και διανομέων.
 
