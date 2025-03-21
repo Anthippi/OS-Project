@@ -1,2 +1,2 @@
-gcc pizzaria.c -o main -pthread
+gcc pizzeria.c -o main -pthread
 ./main 100 1000 
