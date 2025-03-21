@@ -33,7 +33,7 @@ At the end of execution, the system displays:
 - **Test Script**: `test-res.sh`  
   Compiles and runs the code:
   ```bash
-  gcc 3210264-3190209.c -o main -pthread
+  gcc pizzeria.c -o main -pthread
   ./main 100 1000  # 100 orders, seed=1000```
   
 ## Notes
