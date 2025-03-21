@@ -26,9 +26,9 @@ At the end of execution, the system displays:
 - Waiting times for baking and packing.
 
 ## Code Structure
-- **Main File**: `3210264-3190209.c`  
+- **Main File**: `pizzeria.c`  
   Contains thread creation logic, resource synchronization, and statistics.
-- **Header File**: `3210264-3190209-pizzeria.h`  
+- **Header File**: `pizzeria.h`  
   Defines constants (e.g., number of cooks, timers).
 - **Test Script**: `test-res.sh`  
   Compiles and runs the code:
