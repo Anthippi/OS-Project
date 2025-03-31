@@ -51,4 +51,5 @@ Total income: 1500€
 Failed orders: 5
 Successful orders: 95
 Total special pizzas sold: 38
-Total normal pizzas sold: 57```
+Total normal pizzas sold: 57
+```
